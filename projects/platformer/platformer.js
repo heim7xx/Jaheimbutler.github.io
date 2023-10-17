@@ -45,20 +45,22 @@ $(function () {
     // example usage: createPlatform(x,y,width,height)
 
 
-createPlatform(0,200,100, 17) 
+createPlatform(0,200,250, 17) 
 createPlatform(0, 350,90,60) 
 createPlatform(100,0,100,17)  
-createPlatform(750,300,100,70) 
+createPlatform(750,200,100,70) 
+createPlatform(1300,500,100,70) 
 createPlatform(350,300,100,70) 
-createCannon("bottom",300,700,20,20) 
+createCannon("bottom",300,900,20,20) 
 createCannon("top",300,700,20,20)  
-createCannon("bottom",600,400,20,20)
+createCannon("bottom",600,900,20,20)
 createPlatform(350,250,900,100)
 createPlatform(150,550,1000,100)
 createCollectable("max",250,250,0,0)
 createCollectable("max",250,350,0,0)
 createCollectable("max",250,450,0,0)
-createCollectable("diamond",700,250,0,0)
+createCollectable("diamond",700,100,0,0)
+createCannon("",600,400,20,20)
 
     // TODO 2
     // Create collectables

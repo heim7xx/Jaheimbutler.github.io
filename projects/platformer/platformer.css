@@ -3,7 +3,8 @@ body {
 }
 
 canvas {
-  background-color: lightgray;
+  background-image: url("https://img.texasmonthly.com/2022/11/texas-chainsaw-massacre-texas-monthly.jpg?auto=compress&crop=faces&fit=fit&fm=pjpg&ixlib=php-3.3.1&q=45");
+  background-size: 100%;
 }
 
 img {
